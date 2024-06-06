@@ -1,0 +1,31 @@
+@media screen and (max-width: 999px){
+
+    .resp-div1{
+        width: 100% !important;
+    }
+
+    #sidebar{
+        display: none !important;
+    }
+
+    .resp-img1{
+        width: 10rem !important;
+    }
+
+    #app-container{
+        flex-direction: column !important;
+    }
+
+    #mobile-footer{
+        display: flex !important;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .scrollbar-resp-width{
+        width: calc(100% - 18rem) !important;
+    }
+
+}
