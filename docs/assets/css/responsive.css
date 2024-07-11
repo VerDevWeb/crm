@@ -16,16 +16,9 @@
         flex-direction: column !important;
     }
 
-    #mobile-footer{
-        display: flex !important;
-    }
-
 }
 
 @media screen and (min-width: 1000px) {
 
-    .scrollbar-resp-width{
-        width: calc(100% - 18rem) !important;
-    }
 
 }
