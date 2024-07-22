@@ -4,8 +4,12 @@
         width: 100% !important;
     }
 
+    #mobile-footer{
+        display: flex;
+    }
+
     #sidebar{
-        display: none !important;
+        display: none;
     }
 
     .resp-img1{
@@ -15,10 +19,14 @@
     #app-container{
         flex-direction: column !important;
     }
-
 }
 
 @media screen and (min-width: 1000px) {
+    #mobile-footer{
+        display: none;
+    }
 
-
+    #sidebar{
+        display: flex;
+    }
 }
